@@ -16,7 +16,7 @@ def sort_employees(employees, sort_parameter):
     elif sort_parameter == 3:
         return sorted(employees, key=lambda emp: emp.salary)
     else:
-        print("Invalid sorting parameter.")
+        print("invalid sorting parameter.")
         return employees
 
 def main():
